@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <TextView android:id="@+id/selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мои События"
+        android:textSize="26sp" />
+    <CheckBox android:id="@+id/task1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выпить Ношпу"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/task2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выпить Аспирин"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:onClick="onCheckboxClicked"/>
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/logoblack" >
+    </ImageView>
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="top"
+        android:src="@drawable/logoblack" >
+    </ImageView>
+
+
+</LinearLayout>

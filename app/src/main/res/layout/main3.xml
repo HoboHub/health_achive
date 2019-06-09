@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Мой Питомец"
+        android:textColor="#2F0F0E"
+        android:background="#FAF0EF"
+        android:textColorHint="#876F6E"
+        tools:ignore="InvalidId" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:indeterminate="false"
+        android:text="Здоровье"
+        android:scrollbarSize="8dp"
+        android:secondaryProgress="20"
+        android:max="100"
+        android:background ="#FAF0EF"
+        android:progress="30" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text= ''
+        android:textColor="#2F0F0E"
+        android:textColorHint="#876F6E" />
+
+    <ImageView
+        android:id="@+id/imageViewCat"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:src="@drawable/kotiksad" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/logoblack" >
+    </ImageView>
+
+
+
+
+
+</LinearLayout>

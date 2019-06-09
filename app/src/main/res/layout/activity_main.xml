@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/logoblack" >
+    </ImageView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="События"
+        android:textColor="#333F43"
+        android:background="@drawable/roundbutton"
+        android:textColorHint="#876F6E"
+        android:layout_margin="4dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#333F43"
+        android:background="@drawable/roundbutton"
+        android:text="Питомец"
+        android:layout_margin="4dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#333F43"
+        android:background="@drawable/roundbutton"
+        android:text="Настройки"
+        android:layout_margin="4dp"/>
+
+
+
+
+</LinearLayout>
